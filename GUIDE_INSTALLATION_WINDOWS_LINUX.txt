@@ -1,0 +1,48 @@
+GUIDE D'INSTALLATION - WINDOWS ET LINUX
+
+OBJECTIF
+Ce projet peut etre lance sans modifier le code source, a condition d'utiliser les scripts fournis.
+
+SYSTEMES LES MIEUX SUPPORTES
+- Windows 10 / 11
+- Zorin OS
+- Ubuntu
+- Linux Mint
+- Pop!_OS
+- Debian
+
+STATUTS AFFICHES PAR LES SCRIPTS LINUX
+- Distribution supportee : fonctionnement attendu avec un bon niveau de confiance
+- Support probable : le projet devrait fonctionner, mais quelques adaptations systeme peuvent etre necessaires
+- Distribution non testee : le code reste portable, mais l'environnement n'est pas garanti
+
+AUTRES DISTRIBUTIONS LINUX
+- Fedora, Arch, Manjaro et autres peuvent aussi fonctionner.
+- Le point sensible n'est pas le code du projet mais surtout l'environnement Python, venv et TensorFlow.
+- Sur certaines distributions, quelques paquets systeme supplementaires peuvent etre necessaires.
+
+INSTALLATION SOUS WINDOWS
+1. Lancer setup_project.bat
+2. Lancer run_api.bat pour l'API
+3. Lancer run_notebook.bat pour le notebook
+
+INSTALLATION SOUS LINUX
+1. Ouvrir un terminal dans le dossier du projet
+2. Lancer : bash setup_project.sh
+3. Pour l'API : bash run_api.sh
+4. Pour le notebook : bash run_notebook.sh
+
+DATASET
+- Le notebook cherche automatiquement le dataset dans des dossiers standards du projet.
+- Si le dataset est absent, il tente un telechargement depuis Kaggle.
+- Si Kaggle n'est pas configure, placez simplement le dataset dans le projet ou configurez ~/.kaggle/kaggle.json.
+
+REMARQUES LINUX IMPORTANTES
+- Si venv manque : installez python3-venv
+- Si Python 3.13 pose probleme sur votre distribution, essayez Python 3.10, 3.11 ou 3.12
+- Architecture recommandee : x86_64
+
+FICHIERS PRINCIPAUX
+- api_flask_pneumonia.py
+- Projet Science des donnees/Classification_CNN_Pneumonia_OPTIMIZED.ipynb
+- Projet Science des donnees/saved_models/

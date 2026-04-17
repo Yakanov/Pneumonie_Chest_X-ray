@@ -1,0 +1,20 @@
+# Dependances principales pour le notebook, l'API Flask et le telechargement Kaggle
+# Versions volontairement modernes et compatibles avec le projet.
+
+Flask>=3.1,<4
+joblib>=1.5,<2
+matplotlib>=3.10,<4
+numpy>=2.0,<3
+pandas>=2.2,<3
+Pillow>=10,<13
+requests>=2.31,<3
+scikit-learn>=1.6,<2
+scipy>=1.13,<2
+seaborn>=0.13,<1
+tensorflow>=2.21,<2.22
+keras>=3.14,<4
+imbalanced-learn>=0.12,<1
+jupyterlab>=4.0,<5
+notebook>=7,<8
+kaggle>=1.6,<2
+kagglehub>=0.3,<1
