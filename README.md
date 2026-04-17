@@ -90,6 +90,11 @@ Pour partager facilement le projet avec un camarade:
 ## Auteurs
 Projet de groupe realise dans le cadre du module de Science des Donnees.
 
-## Avertissement
+# Avertissement
 Ce projet est a but academique et pedagogique.
 Il ne remplace pas un diagnostic medical professionnel.
+
+## Sauvegarde du Modele
+- le dossier de sauvegarde du modele depassant les 100Mo, nous ne pouvions pas le pusher sur git. En dessous vous avez le lien Google drive pour le recuperer.
+- https://drive.google.com/drive/folders/1fhYd9M7x5iGOnW1axrJ6rtJDXxtCTZuT?usp=drive_link
+- NB: ce dossier est necessaire pour faire fonctionner l'API
