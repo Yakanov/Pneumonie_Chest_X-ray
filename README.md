@@ -32,7 +32,7 @@ Ce projet combine:
 - setup_project.bat / run_api.bat / run_notebook.bat: scripts Windows
 - setup_project.sh / run_api.sh / run_notebook.sh: scripts Linux
 - GUIDE_INSTALLATION_WINDOWS_LINUX.txt: guide rapide
-- portable_share.zip: package partage pret a envoyer
+- portable_share.zip: package partage pret a envoyer (Lien Google Drive pour le fichier: https://drive.google.com/file/d/1sbuiyhKTJp4OqC8eJcp38D_zZVkfSTzN/view?usp=drive_link)
 
 ## Dataset
 Dataset utilise:
